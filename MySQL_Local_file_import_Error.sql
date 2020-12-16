@@ -5,3 +5,8 @@
 
 SET GLOBAL local_infile=1;
 
+
+# Reboot mysql
+
+# Check global variable
+SHOW GLOBAL variables like 'local_infile';

@@ -1,3 +1,4 @@
+-- Load local infile "~/Scopulariopsis/RNAseq.csv" INTO TABLE RNASeq 
 LOAD DATA LOCAL INFILE "~/Scopulariopsis/RNAseq.csv" INTO TABLE scopulariopsis.RNASeq 
 FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY '\n' 

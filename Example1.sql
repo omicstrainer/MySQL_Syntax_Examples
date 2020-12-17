@@ -1,5 +1,4 @@
-##RNASeq table
-
+--RNASeq table
 CREATE TABLE RNASeq(
 Gene_ID VARCHAR(255) PRIMARY KEY,
 Gene_Annotation VARCHAR(255),

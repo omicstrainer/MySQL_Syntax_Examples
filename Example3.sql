@@ -5,11 +5,11 @@
 
 DESCRIBE rnaseq;
 
---
+-- go        (\g) Send command to mysql server.
  SELECT * FROM  rnaseq \G
 
 
- -- show columna
+ -- show column
  SHOW COLUMNS FROM rnaseq;
 
  ---wild card sign %

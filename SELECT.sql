@@ -113,15 +113,6 @@ SELECT DISTINCT Expression_values  FROM rnaseq;
 SELECT DISTINCT Unique_gene_reads  FROM rnaseq;
 
 ---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Total_gene_read
-SELECT DISTINCT Total_gene_read FROM rnaseq;
-
---- Select Column Aliases:
-
-SELECT DISTINCT Job AS Job_Titles FROM employee_info;
-
---- Expressions in SELECT Statement:
-
-SELECT Name,
 'Active' AS Status, 
 0.22 * Salary AS Tax_paid, UPPER(Job) AS Job
 FROM employee_info;
@@ -141,3 +132,9 @@ SELECT DISTINCT column_name(s) FROM table_name;
 
 SELECT Job FROM employee_info;
 DISTINCT on Multiple Columns:
+
+
+ELECT DISTINCT City, Job
+FROM employee_info;
+
+DISTINCT in Aggregate Functions:

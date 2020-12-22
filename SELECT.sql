@@ -84,6 +84,9 @@ SELECT * FROM rnaseq LIMIT 10;
 -- SELECT all columns from the table rnaseq using * with LIMIT 50
 SELECT * FROM rnaseq LIMIT 50;
 
+-- SELECT all columns from the table rnaseq using * with LIMIT 50
+SELECT * FROM rnaseq LIMIT 100;
+
 ---------------------------------------------------------------------
 -----------SELECT DISTINCT column_name FROM table_name;--------------
 ---------------------------------------------------------------------

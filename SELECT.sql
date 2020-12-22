@@ -132,3 +132,7 @@ FROM employee_info;
 SELECT CONCAT(Name, ' works as a ', Job) AS Description
 FROM employee_info;
 
+--- SELECT DISTINCT Statement
+-------Syntax:
+SELECT DISTINCT column_name FROM table_name;
+SELECT DISTINCT column_name(s) FROM table_name;

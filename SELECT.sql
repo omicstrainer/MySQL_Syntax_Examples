@@ -49,3 +49,9 @@ SELECT * FROM table;
 
 -- SELECT all columns from the table employee_info
 SELECT * FROM employee_info;
+
+-- SELECT all columns from the table rnaseq
+SELECT * FROM rnaseq;
+
+
+SELECT * FROM rnaseq LIMIT 5;

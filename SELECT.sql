@@ -103,4 +103,7 @@ SELECT DISTINCT RPKM  FROM rnaseq;
 ---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Gene_Annotation
 SELECT DISTINCT Gene_Annotation  FROM rnaseq;
 
+---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Gene_length 
 SELECT DISTINCT Gene_length  FROM rnaseq;
+
+---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Gene_Annotation

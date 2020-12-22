@@ -100,4 +100,5 @@ SELECT DISTINCT City FROM employee_info;
 ---- Removing Duplicates from the table rnaseq using SELECT DISTINCT RPKM 
 SELECT DISTINCT RPKM  FROM rnaseq;
 
+---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Gene_Annotation
 SELECT DISTINCT Gene_Annotation  FROM rnaseq;

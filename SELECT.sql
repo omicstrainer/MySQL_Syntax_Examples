@@ -138,3 +138,8 @@ SELECT DISTINCT City, Job
 FROM employee_info;
 
 DISTINCT in Aggregate Functions:
+
+SELECT DISTINCT City, Job
+FROM employee_info;
+
+DISTINCT in Aggregate Functions:

@@ -97,6 +97,5 @@ SELECT DISTINCT Job FROM employee_info;
 ---- Removing Duplicates from table employee_info using SELECT DISTINCT City
 SELECT DISTINCT City FROM employee_info;
 
-
----- Removing Duplicates from table employee_info using SELECT DISTINCT City
-SELECT DISTINCT City FROM employee_info;
+---- Removing Duplicates from the table rnaseq using SELECT DISTINCT RPKM 
+SELECT DISTINCT RPKM  FROM rnaseq;

@@ -53,6 +53,7 @@ SELECT * FROM employee_info;
 -- SELECT all columns from the table rnaseq using *
 SELECT * FROM rnaseq;
 
+--------------SELECT * FROM table_name LIMIT value; -----------
 -- SELECT All Columns of a table using * with LIMIT value
 SELECT * FROM table_name LIMIT value;
 
@@ -68,6 +69,7 @@ SELECT * FROM rnaseq LIMIT 10;
 -- SELECT all columns from the table rnaseq using * with LIMIT 10
 SELECT * FROM rnaseq LIMIT 10;
 
-
 -- SELECT all columns from the table rnaseq using * with LIMIT 50
 SELECT * FROM rnaseq LIMIT 50;
+
+--------------------------

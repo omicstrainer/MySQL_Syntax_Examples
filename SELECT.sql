@@ -66,5 +66,5 @@ SELECT * FROM rnaseq LIMIT 5;
 -- SELECT all columns from the table rnaseq using * with LIMIT 10
 SELECT * FROM rnaseq LIMIT 10;
 
--- SELECT all columns from the table rnaseq using * with LIMIT 5
-SELECT * FROM rnaseq LIMIT 5;
+-- SELECT all columns from the table rnaseq using * with LIMIT 10
+SELECT * FROM rnaseq LIMIT 10;

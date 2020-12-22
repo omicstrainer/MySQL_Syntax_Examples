@@ -38,5 +38,5 @@ SELECT Name, Job FROM employee_info;
 -- SELECT columns GENE_ID and RPKM from the table rnaseq
 SELECT GENE_ID, RPKM FROM rnaseq;
 
-
+-- SELECT columns GENE_ID and RPKM from the table rnaseq
 SELECT GENE_ID, Gene_Length, RPKM FROM rnaseq;

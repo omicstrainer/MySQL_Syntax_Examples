@@ -119,9 +119,16 @@ SELECT DISTINCT Total_gene_read FROM rnaseq;
 
 SELECT DISTINCT Job AS Job_Titles FROM employee_info;
 
----Expressions in SELECT Statement:
+--- Expressions in SELECT Statement:
 
 SELECT Name,
 'Active' AS Status, 
 0.22 * Salary AS Tax_paid, UPPER(Job) AS Job
 FROM employee_info;
+
+
+--- Concatenating Column Values:
+
+SELECT CONCAT(Name, ' works as a ', Job) AS Description
+FROM employee_info;
+

@@ -134,7 +134,7 @@ SELECT Job FROM employee_info;
 DISTINCT on Multiple Columns:
 
 
-ELECT DISTINCT City, Job
+SELECT DISTINCT City, Job
 FROM employee_info;
 
 DISTINCT in Aggregate Functions:

@@ -136,3 +136,5 @@ FROM employee_info;
 -------Syntax:
 SELECT DISTINCT column_name FROM table_name;
 SELECT DISTINCT column_name(s) FROM table_name;
+
+SELECT DISTINCT Values:

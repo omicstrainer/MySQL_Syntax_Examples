@@ -114,3 +114,7 @@ SELECT DISTINCT Unique_gene_reads  FROM rnaseq;
 
 ---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Total_gene_read
 SELECT DISTINCT Total_gene_read FROM rnaseq;
+
+--- Select Column Aliases:
+
+SELECT DISTINCT Job AS Job_Titles FROM employee_info;

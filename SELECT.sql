@@ -41,5 +41,5 @@ SELECT GENE_ID, RPKM FROM rnaseq;
 -- SELECT columns GENE_ID, Gene_Length, RPKM from the table rnaseq
 SELECT GENE_ID, Gene_Length, RPKM FROM rnaseq;
 
--- SELECT columns GENE_ID and RPKM from the table rnaseq
-SELECT GENE_ID, Gene_Length, RPKM FROM rnaseq;
+-- SELECT columns GENE_ID, Gene_Length,Expression_values and RPKM from the table rnaseq
+SELECT GENE_ID, Gene_Length,Expression_values, RPKM FROM rnaseq;

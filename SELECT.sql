@@ -44,6 +44,9 @@ SELECT GENE_ID, Gene_Length, RPKM FROM rnaseq;
 -- SELECT columns GENE_ID, Gene_Length,Expression_values and RPKM from the table rnaseq
 SELECT GENE_ID, Gene_Length,Expression_values, RPKM FROM rnaseq;
 
+--------------------------------------
+--------- SELECT * FROM table;--------
+--------------------------------------
 -- SELECT All Columns of a table using *
 SELECT * FROM table;
 
@@ -53,7 +56,10 @@ SELECT * FROM employee_info;
 -- SELECT all columns from the table rnaseq using *
 SELECT * FROM rnaseq;
 
+
+---------------------------------------------------------------
 --------------SELECT * FROM table_name LIMIT value; -----------
+---------------------------------------------------------------
 -- SELECT All Columns of a table using * with LIMIT value
 SELECT * FROM table_name LIMIT value;
 

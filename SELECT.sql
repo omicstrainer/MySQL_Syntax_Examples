@@ -118,3 +118,10 @@ SELECT DISTINCT Total_gene_read FROM rnaseq;
 --- Select Column Aliases:
 
 SELECT DISTINCT Job AS Job_Titles FROM employee_info;
+
+---Expressions in SELECT Statement:
+
+SELECT Name,
+'Active' AS Status,
+0.22 * Salary AS Tax_paid, UPPER(Job) AS Job
+FROM employee_info;

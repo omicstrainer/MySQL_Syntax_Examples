@@ -29,8 +29,10 @@ SELECT Total_gene_read  FROM rnaseq;
 SELECT RPKM  FROM rnaseq;
 
 
--- SELECT multiple columns;
-SELECT Name, Job FROM employee_info;
+-------SELECT column_name1, column_name2 FROM table_name;-------
+----------------------------------------------------------------
+-- SELECT multiple columns from a table;
+SELECT column_name1, column_name2 FROM table_name;
 
 -- SELECT multiple columns from table employee_info;
 SELECT Name, Job FROM employee_info;

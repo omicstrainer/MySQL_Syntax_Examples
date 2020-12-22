@@ -28,7 +28,7 @@ SELECT Total_gene_read  FROM rnaseq;
 -- SELECT the column RPKM from the table rnaseq
 SELECT RPKM  FROM rnaseq;
 
-
+----------------------------------------------------------------
 -------SELECT column_name1, column_name2 FROM table_name;-------
 ----------------------------------------------------------------
 -- SELECT multiple columns from a table;

@@ -34,3 +34,6 @@ SELECT Name, Job FROM employee_info;
 
 -- SELECT multiple columns from table employee_info;
 SELECT Name, Job FROM employee_info;
+
+-- SELECT columns GENE_ID and RPKM from the table rnaseq
+SELECT GENE_ID, RPKM FROM rnaseq;

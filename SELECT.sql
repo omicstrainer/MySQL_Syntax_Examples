@@ -143,3 +143,6 @@ SELECT DISTINCT City, Job
 FROM employee_info;
 
 DISTINCT in Aggregate Functions:
+
+SELECT COUNT(DISTINCT Job)
+FROM employee_info;

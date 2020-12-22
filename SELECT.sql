@@ -54,7 +54,7 @@ SELECT * FROM employee_info;
 SELECT * FROM rnaseq;
 
 
--- SELECT All Columns of a table using *
+-- SELECT All Columns of a table using * with LIMIT value
 
 SELECT * FROM employee_info LIMIT 3;
 

@@ -110,7 +110,7 @@ SELECT DISTINCT Gene_length  FROM rnaseq;
 SELECT DISTINCT Expression_values  FROM rnaseq;
 
 ---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Unique_gene_reads
-SELECT DISTINCT Gene_length  FROM Unique_gene_reads;
+SELECT DISTINCT Unique_gene_reads  FROM rnaseq;
 
 ---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Expression_values
 SELECT DISTINCT Expression_values  FROM rnaseq;

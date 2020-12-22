@@ -22,9 +22,9 @@ SELECT Gene_Annotation  FROM rnaseq;
 Gene_length
 -- SELECT the column Gene_Annotation from the table rnaseq
 SELECT Gene_Annotation  FROM rnaseq;
-Unique_gene_reads
--- SELECT the column Gene_Annotation from the table rnaseq
-SELECT Gene_Annotation  FROM rnaseq;
+
+-- SELECT the column Unique_gene_reads from the table rnaseq
+SELECT Unique_gene_reads  FROM rnaseq;
 
 -- SELECT the column Total_gene_read from the table rnaseq
 SELECT Total_gene_read  FROM rnaseq;

@@ -137,4 +137,7 @@ FROM employee_info;
 SELECT DISTINCT column_name FROM table_name;
 SELECT DISTINCT column_name(s) FROM table_name;
 
-SELECT DISTINCT Values:
+------------SELECT DISTINCT Values:
+
+SELECT Job FROM employee_info;
+DISTINCT on Multiple Columns:

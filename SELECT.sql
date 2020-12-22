@@ -16,8 +16,7 @@ SELECT GENE_ID  FROM rnaseq;
 -- SELECT the column Gene_Annotation from the table rnaseq
 SELECT Gene_Annotation  FROM rnaseq;
 
-
--- SELECT the column Gene_Annotation from the table rnaseq
+-- SELECT the column Expression_values from the table rnaseq
 SELECT Expression_values  FROM rnaseq;
 
 -- SELECT the column Gene_length from the table rnaseq

@@ -84,9 +84,11 @@ SELECT * FROM rnaseq LIMIT 10;
 -- SELECT all columns from the table rnaseq using * with LIMIT 50
 SELECT * FROM rnaseq LIMIT 50;
 
---------------------------
+-------
+-----------SELECT DISTINCT column_name FROM table_name;--------------
 
 ---- Removing Duplicates from table table_name using SELECT DISTINCT
 SELECT DISTINCT column_name FROM table_name;
 
+---- Removing Duplicates from table table_name using SELECT DISTINCT
 SELECT DISTINCT Job FROM employee_info;

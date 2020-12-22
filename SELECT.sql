@@ -112,5 +112,5 @@ SELECT DISTINCT Expression_values  FROM rnaseq;
 ---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Unique_gene_reads
 SELECT DISTINCT Unique_gene_reads  FROM rnaseq;
 
----- Removing Duplicates from the table rnaseq using SELECT DISTINCT Expression_values
-SELECT DISTINCT Expression_values  FROM rnaseq;
+---- Removing Duplicates from the table rnaseq using SELECT DISTINCT Total_gene_read
+SELECT DISTINCT Total_gene_read FROM rnaseq;
